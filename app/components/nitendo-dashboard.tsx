@@ -251,6 +251,33 @@ export default function NitendoDashboard() {
             </div>
           </div>
         </div>
+
+        <div className="fixed bottom-0 flex items-end gap-x-8 bg-[#F9F9F9] h-[56px] w-full">
+          <div className="flex h-[44px] w-auto bg-white items-center gap-x-2 px-4 rounded-t-[8px] border border-[#E8E8E8] border-b-0">
+            <p className="text-black text-sm">
+              <span className="text-[#36A955]">Role:</span> Super Admin
+            </p>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.6001 12.5414L11.1668 7.10808C10.5251 6.46641 9.47515 6.46641 8.83348 7.10808L3.40015 12.5414"
+                stroke="#BBBBBB"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+          <div className="flex items-center ">
+            <p className="text-black text-sm">Last login: Tue, 14 Nobvember 2023</p>
+          </div>
+        </div>
       </main>
     );
 }
