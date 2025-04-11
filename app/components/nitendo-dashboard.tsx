@@ -274,8 +274,10 @@ export default function NitendoDashboard() {
               />
             </svg>
           </div>
-          <div className="flex items-center ">
-            <p className="text-black text-sm">Last login: Tue, 14 Nobvember 2023</p>
+          <div className="flex items-center h-[44px]">
+            <p className="text-black text-sm">
+              Last login: Tue, 14 Nobvember 2023
+            </p>
           </div>
         </div>
       </main>
