@@ -181,7 +181,7 @@ export default function SideBar() {
   ];
 
   return (
-    <section className="w-[300px] bg-black min-h-screen relative">
+    <section className="w-[300px] bg-black min-h-screen relative hidden xl:block">
       <div className="h-[102px] flex justify-start px-6 items-center border-b border-[#393939]">
         <Image src="/logo.png" alt="logo" width={153} height={62} />
       </div>
